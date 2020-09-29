@@ -35,7 +35,7 @@
         "ip-address": "^5.8.6",
         "jquery": "^3.1.1",
         "jrpc-client": "0.0.6",
-        "localIP": "0.0.2",
+        "gy-local-ip": "0.0.2",
         "lodash": "^4.17.4",
         "merge": "^1.2.0",
         "mkdirp": "^0.5.1",

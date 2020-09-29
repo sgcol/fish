@@ -72,7 +72,7 @@ var jrpc = new(require('jrpc-client'))()
     .on('connect', function regServer() {
         var PLATFORM_ID = conf.name,
             SERVER_ID = 0,
-            ip = require('localIP'),
+            ip = require('gy-locale-ip'),
             port = argv.port;
         jrpc.call('serverinfo', {
             productName: 'hgame',
